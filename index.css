@@ -112,26 +112,97 @@ body > footer > p {
 }
 .slide ul.factor_group {
   border: 1px solid #000;
-  display: none;
   float: left;
   height: 230px;
   list-style: none;
-  padding: 20px;
-  width: 340px;  
+  margin-left: 16px;
+  padding: 30px 20px 10px;
+  position: relative;
+  width: 230px;  
+}
+.slide ul.hidden {
+  display: none;
+}
+.slide .center_block {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 580px;
+}
+.slide .lots_of_text {
+  width: 620px;
+}
+.right_align {
+  text-align: right;
+}
+.slide ul.top_align {
+  padding: 10px 20px 30px;
+}
+.slide .lots_of_text ul.factor_group {
+  border-radius: 0;
+  height: 250px;
+  width: 250px;
+}
+.slide .lots_of_text ul.factor_group li {
+  font-size: 1em;
+}
+.slide .factor_group .factor_title {
+  color: #000;
+  position: absolute;
+}
+.slide ul.factor_group img {
+  display: none;
+  position: absolute;
+  width: 68%;
 }
 .group_a {
   background-color: blue;
+  border-top-left-radius: 300px;
   color: #FFF;
+}
+.group_a .factor_title {
+  left: 0;
+  top: 0;
+}
+.group_a img {
+  right: 5px;
+  bottom: -10px
 }
 .group_b {
   background-color: green;
+  border-bottom-left-radius: 300px;
   color: #FFF;
+}
+.group_b .factor_title {
+  bottom: 0;
+  left: 0;
+}
+.group_b img {
+  right: 5px;
+  top: 5px
 }
 .group_c {
   background-color: red;
+  border-bottom-right-radius: 300px;
   color: #FFF;
+}
+.group_c .factor_title {
+  bottom: 0;
+  right: 0;
+}
+.group_c img {
+  left: 5px;
+  top: 5px
 }
 .group_d {
   background-color: yellow;
+  border-top-right-radius: 300px;
   color: #000;
+}
+.group_d .factor_title {
+  right: 0;
+  top: 0;
+}
+.group_d img {
+  left: 5px;
+  bottom: -10px
 }

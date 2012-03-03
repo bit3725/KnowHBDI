@@ -19,5 +19,9 @@
 			typeC.appendTo(groupC);
 			typeD.appendTo(groupD);
 		});
+
+		$("#xiyouji").on("click", "ul", function() {
+			$(this).children("img").fadeIn();
+		})
 	});
 })(jQuery)
