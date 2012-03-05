@@ -100,6 +100,12 @@ body > footer > p {
 .slide li {
   font-size: 1.4375em;
 }
+.clickable {
+  cursor: pointer;
+}
+.subtitle {
+  text-decoration: underline;
+}
 
 /*car factor*/
 .car_factor {
