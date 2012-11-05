@@ -6,535 +6,581 @@
   <meta name="viewport" content="width=1024, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   
-  <link rel="stylesheet" href="deck/core/deck.core.css" type="text/css" />
-  <link rel="stylesheet" href="deck/themes/transition/horizontal-slide.css" type="text/css" />
-  <link rel="stylesheet" href="deck/extensions/hash/deck.hash.css" type="text/css" />
-  <link rel="stylesheet" href="deck/extensions/menu/deck.menu.css" type="text/css" />
-  <link rel="stylesheet" href="deck/extensions/navigation/deck.navigation.css" type="text/css" />
-  <link rel="stylesheet" href="deck/extensions/status/deck.status.css" type="text/css" />
-  <link rel="stylesheet" href="index.css" type="text/css" />
-  
-  <script src="deck/modernizr.custom.js"></script>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="index.css">
+
+  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+  <script>
+    document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+  </script>
 </head>
 <body>
-  <header>
-    <h1>你是什么颜色的？</h1>
-  </header>
-  <div class="outer-container">
-    <article class="deck-container">
-      <section class="slide title">
+  <div class="reveal">
+    <div class="slides">
+      <section>
         <h1>
           你是什么颜色的？
-          <img src="resources/HILogo.gif" alt="hilogo" />
         </h1>
-        <h3 class="author">Xingkui@OpenFeint</h3>
+        <img src="resources/HILogo.gif" alt="hilogo" />
+        <p>
+          <small>Created by xingkui@OpenFeint / <a href="http://twitter.com/bit3725">@bit3725</a></small>
+        </p>
       </section>
-      <section class="slide">
-        <h2>
-          有足够的钱买车,你会优先考虑？
-        </h2>
-        <ul class="car_factor unorder">
-          <li class="type_a">性能数据</li>
-          <li class="type_d">看重品质</li>
-          <li class="type_b">先研究要什么型的车</li>
-          <li class="type_c">感受和舒适性</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_d">满足长期计划</li>
-          <li class="type_a">能耗效率</li>
-          <li class="type_c">最关注友好性</li>
-          <li class="type_b">安全性和耐用性</li>
-        </ul>  
-        <ul class="car_factor unorder">
-          <li class="type_b">储藏空间和防锈材料</li>
-          <li class="type_c">买一眼爱上的车</li>
-          <li class="type_a">价格和品牌价值</li>
-          <li class="type_d">买样车</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_c">受销售服务机构影响</li>
-          <li class="type_b">实用性-车门数量</li>
-          <li class="type_d">动感和颜色</li>
-          <li class="type_a">和其他车比较</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_a">易于维护</li>
-          <li class="type_b">关注维护需求</li>
-          <li class="type_c">感觉选择正确就买</li>
-          <li class="type_d">外形和前沿性</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_a">操作方式</li>       
-          <li class="type_d">冒些风险尝试新品牌</li>          
-          <li class="type_b">内部行李箱</li>
-          <li class="type_c">朋友的推荐</li>
-        </ul>
+      <section>
+        <section>
+          <h2>
+            有足够的钱买车,你会优先考虑？
+          </h2>
+        </section>
+        <section>
+          <ul class="hori-list">
+            <li>性能数据</li>
+            <li>看重品质</li>
+            <li>先研究要什么型的车</li>
+            <li>感受和舒适性</li>
+            <li>满足长期计划</li>
+            <li>能耗效率</li>
+            <li>最关注友好性</li>
+            <li>安全性和耐用性</li>
+            <li>储藏空间和防锈材料</li>
+            <li>买一眼爱上的车</li>
+            <li>价格和品牌价值</li>
+            <li>买样车</li>
+            <li>受销售服务机构影响</li>
+            <li>实用性-车门数量</li>
+            <li>动感和颜色</li>
+            <li>和其他车比较</li>
+            <li>易于维护</li>
+            <li>关注维护需求</li>
+            <li>感觉选择正确就买</li>
+            <li>外形和前沿性</li>
+            <li>操作方式</li>       
+            <li>冒些风险尝试新品牌</li>          
+            <li>内部行李箱</li>
+            <li>朋友的推荐</li>
+          </ul>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          <a href="http://www.hbdi.com/">HBDI</a>不是什么？
-        </h2>
-        <div class="slide col2">
-          <a href="http://book.douban.com/subject/3137203/">
-            <img src="resources/xinliceshi.jpg" alt="xinliceshi" />
-          </a>
-          <a href="http://w.hudong.com/8d7a8fe3ed9f447fb2599e8afe8cb878.html">
-            <img src="resources/xuexing.jpg" alt="xuexing" />
-          </a> 
-        </div>
-      </section>
-      <section class="slide">
-        <h2>
-          <a href="http://www.hbdi.com/">HBDI</a>不是什么？
-        </h2>
-        <div class="slide col2">
-          <a href="http://weibo.com/2120726553/y6vGAtCrD">
-            <img src="resources/xingzuo.jpg" alt="xingzuo" />
-          </a>
-          <a href="http://www.nipic.com/show/3/24/03efbee8f2421f72.html">
-            <img src="resources/shengxiao.jpg" alt="shengxiao" />
-          </a>  
-        </div>
-      </section>
-      <section class="slide">
-        <h2>
-          <a href="http://www.hbdi.com/">HBDI</a>是什么？
-        </h2>
-        <ul>
-          <li class="slide">
-            HBDI是由全世界数百万人完成的一个评估工具。阐述和解释你思考，学习，沟通和决策时所愿意采取的方式。让你知道自己潜在的发展机会
-          </li>
-          <li class="slide">
-            了解自己的个人思维偏好，可以优化你的思维，决策，沟通方式，适应给定情况的能力。也会解释为什么某些人和某些人沟通比较容易
-          </li>
-          <li class="slide">
-            表明为什么你的某些教育知识或工作经验似乎不能发挥作用，而有些能令人满意。为什么你会对某些可能或爱好感兴趣并喜欢他们.  
-          </li>
-          <li class="slide">
-            <p>HBDI偏好评测图以大脑模拟图为基础，根据大脑各部分的思维偏好将大脑用四个象限表示</p>
-            <a href="http://papilionovare.wordpress.com/2009/11/07/whole-brain-coaching/hbdi-profile/">
-              <img src="resources/hbdi_result.jpeg" alt="result" />
+      <section>
+        <section>
+          <h2>
+            <a href="http://www.hbdi.com/">HBDI</a>不是什么？
+          </h2>
+        </section>
+        <section>
+          <div class="col2">
+            <a href="http://book.douban.com/subject/3137203/">
+              <img src="resources/xinliceshi.jpg" alt="xinliceshi" />
             </a>
-          </li>
-        </ul>
+            <a href="http://w.hudong.com/8d7a8fe3ed9f447fb2599e8afe8cb878.html">
+              <img src="resources/xuexing.jpg" alt="xuexing" />
+            </a> 
+          </div>
+        </section>
+        <section>
+          <div class="col2">
+            <a href="http://weibo.com/2120726553/y6vGAtCrD">
+              <img src="resources/xingzuo.jpg" alt="xingzuo" />
+            </a>
+            <a href="http://www.nipic.com/show/3/24/03efbee8f2421f72.html">
+              <img src="resources/shengxiao.jpg" alt="shengxiao" />
+            </a>  
+          </div>  
+        </section>
+        <section>
+          <h2>
+            <a href="http://www.hbdi.com/">HBDI</a>是什么？
+          </h2>
+        </section>
+        <section>
+          <ul>
+            <li class="fragment">
+              HBDI是由全世界数百万人完成的一个评估工具。阐述和解释你思考，学习，沟通和决策时所愿意采取的方式。让你知道自己潜在的发展机会
+            </li>
+            <li class="fragment">
+              了解自己的个人思维偏好，可以优化你的思维，决策，沟通方式，适应给定情况的能力。也会解释为什么某些人和某些人沟通比较容易
+            </li>
+            <li class="fragment">
+              表明为什么你的某些教育知识或工作经验似乎不能发挥作用，而有些能令人满意。为什么你会对某些可能或爱好感兴趣并喜欢他们.  
+            </li>
+            <li class="fragment">
+              <p>HBDI偏好评测图以大脑模拟图为基础，根据大脑各部分的思维偏好将大脑用四个象限表示</p>
+              <a href="http://papilionovare.wordpress.com/2009/11/07/whole-brain-coaching/hbdi-profile/">
+                <img src="resources/hbdi_result.jpeg" alt="result" />
+              </a>
+            </li>
+          </ul>
+        </section>
       </section>
-      <section class="slide reorder_slide">
-        <h2 id="reorder" class="reorder clickable">
-          重新来看买车的那些关注点
-        </h2>
-        <ul class="car_factor unorder">
-          <li class="type_a">性能数据</li>
-          <li class="type_d">看重品质</li>
-          <li class="type_b">先研究要什么型的车</li>
-          <li class="type_c">感受和舒适性</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_d">满足长期计划</li>
-          <li class="type_a">能耗效率</li>
-          <li class="type_c">最关注友好性</li>
-          <li class="type_b">安全性和耐用性</li>
-        </ul>  
-        <ul class="car_factor unorder">
-          <li class="type_b">储藏空间和防锈材料</li>
-          <li class="type_c">买一眼爱上的车</li>
-          <li class="type_a">价格和品牌价值</li>
-          <li class="type_d">买样车</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_c">受销售服务机构影响</li>
-          <li class="type_b">实用性-车门数量</li>
-          <li class="type_d">动感和颜色</li>
-          <li class="type_a">和其他车比较</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_a">易于维护</li>
-          <li class="type_b">关注维护需求</li>
-          <li class="type_c">感觉选择正确就买</li>
-          <li class="type_d">外形和前沿性</li>
-        </ul>
-        <ul class="car_factor unorder">
-          <li class="type_a">操作方式</li>       
-          <li class="type_d">冒些风险尝试新品牌</li>          
-          <li class="type_b">内部行李箱</li>
-          <li class="type_c">朋友的推荐</li>
-        </ul>
-        <div class="center_block">
-          <ul class="factor_group group_a right_align hidden">
-          </ul>
-          <ul class="factor_group group_d hidden">
-          </ul>
-          <ul class="factor_group group_b right_align top_align hidden">
-          </ul>
-          <ul class="factor_group group_c top_align hidden">
-          </ul>        
-        </div>
       </section>
-      <section class="slide">
-        <h2>
-          大脑的思维偏好
-        </h2>
-        <div class="slide center_block">
-          <ul class="factor_group group_a right_align">
-            <div class="factor_title">A左本体</div>
-            <li>逻辑</li>       
-            <li>分析</li>         
-            <li>基于事实</li>
-            <li>量化</li>  
+      <section>
+        <section>
+          <h3>
+            重新来看买车的那些关注点
+          </h3>
+        </section>
+        <section>
+          <ul class="hori-list">
+            <li>性能数据</li>
+            <li>看重品质</li>
+            <li>先研究要什么型的车</li>
+            <li>感受和舒适性</li>
+            <li>满足长期计划</li>
+            <li>能耗效率</li>
+            <li>最关注友好性</li>
+            <li>安全性和耐用性</li>
+            <li>储藏空间和防锈材料</li>
+            <li>买一眼爱上的车</li>
+            <li>价格和品牌价值</li>
+            <li>买样车</li>
+            <li>受销售服务机构影响</li>
+            <li>实用性-车门数量</li>
+            <li>动感和颜色</li>
+            <li>和其他车比较</li>
+            <li>易于维护</li>
+            <li>关注维护需求</li>
+            <li>感觉选择正确就买</li>
+            <li>外形和前沿性</li>
+            <li>操作方式</li>       
+            <li>冒些风险尝试新品牌</li>          
+            <li>内部行李箱</li>
+            <li>朋友的推荐</li>
           </ul>
-          <ul class="factor_group group_d">
-            <div class="factor_title">D右本体</div>
-            <li>全面</li>       
-            <li>本能</li>          
-            <li>整体</li>
-            <li>综合</li>  
-          </ul>
-          <ul class="factor_group group_b right_align top_align">
-            <div class="factor_title">B左根部</div>
-            <li>组织</li>       
-            <li>顺序</li>          
-            <li>计划</li>
-            <li>细节</li>  
-          </ul>
-          <ul class="factor_group group_c top_align">
-            <div class="factor_title">C右根部</div>
-            <li>人际关系</li>       
-            <li>基于感觉</li>          
-            <li>肢体运动</li>
-            <li>情绪</li>  
-          </ul>        
-        </div>
+        </section>
+        <section>
+          <div class="factor_group_container">
+            <ul class="factor_group group_a right_align fragment">
+              <li class="type_a">性能数据</li>
+              <li class="type_a">能耗效率</li>
+              <li class="type_a">价格和品牌价值</li>
+              <li class="type_a">和其他车比较</li>
+              <li class="type_a">易于维护</li>
+              <li class="type_a">操作方式</li>
+            </ul>
+            <ul class="factor_group group_d fragment">
+              <li class="type_d">看重品质</li>
+              <li class="type_d">满足长期计划</li>
+              <li class="type_d">买样车</li>
+              <li class="type_d">动感和颜色</li>
+              <li class="type_d">外形和前沿性</li>
+              <li class="type_d">冒些风险尝试新品牌</li>
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <li class="type_b">先研究要什么型的车</li>
+              <li class="type_b">安全性和耐用性</li>
+              <li class="type_b">储藏空间和防锈材料</li>
+              <li class="type_b">实用性-车门数量</li>
+              <li class="type_b">关注维护需求</li>
+              <li class="type_b">内部行李箱</li>
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <li class="type_c">感受和舒适性</li>
+              <li class="type_c">最关注友好性</li>
+              <li class="type_c">买一眼爱上的车</li>
+              <li class="type_c">受销售服务机构影响</li>
+              <li class="type_c">感觉选择正确就买</li>
+              <li class="type_c">朋友的推荐</li>
+            </ul>
+          </div>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          各个象限的特长
-        </h2>
-        <div class="center_block lots_of_text">
-          <ul class="slide factor_group group_a right_align">
-            <li>收集事实</li>       
-            <li>分析问题</li>          
-            <li>理性争议</li>
-            <li>形成理论</li>  
-            <li>逻辑性地解决问题</li>  
-            <li>财务分析及决策</li>  
-            <li>了解技术要素</li>  
-            <li>关键性分析</li>  
-            <li>用数字、统计、数据、精确性工作</li>  
-          </ul>
-          <ul class="slide factor_group group_d">
-            <li>看到“重点”</li>       
-            <li>认可新可能性</li>          
-            <li>容忍歧义</li>
-            <li>继承想法和概念</li>  
-            <li>向既定方针挑战</li>  
-            <li>将不同要素综合成新的整体</li>  
-            <li>发明创新对问题的解决方法</li>  
-            <li>用直观的方式解决问题</li>  
-            <li>同时处理不同输入</li>  
-          </ul>
-          <ul class="slide factor_group group_b right_align top_align">
-            <li>发现被忽略的缺陷</li>       
-            <li>根据实际情况处理问题</li>          
-            <li>务实求是</li>
-            <li>保持一致的标准</li>  
-            <li>进行稳健的领导和督促</li>  
-            <li>阅读文档/合同中的细则</li>  
-            <li>组织和记录数据</li>  
-            <li>制定详细的计划和进程</li>  
-            <li>用井然有序的方式阐述计划</li>  
-            <li>保存原始财务记录</li>  
-          </ul>
-          <ul class="slide factor_group group_c top_align">
-            <li>了解人际关系的困难</li>       
-            <li>预测他人如何感觉</li>          
-            <li>直观地理解他人如何感觉</li>
-            <li>领悟紧张的人际关系中的非语言暗示</li>  
-            <li>激发热情</li>  
-            <li>说服，调解</li>  
-            <li>共享</li>  
-            <li>理解情绪要素</li>  
-            <li>考虑价值</li>  
-          </ul>        
-        </div>
+      <section>
+        <section>
+          <h2>
+            大脑的思维偏好
+          </h2>
+        </section>
+        <section>
+          <div class="factor_group_container">
+            <ul class="factor_group group_a right_align fragment">
+              <div class="factor_title">A左本体</div>
+              <li>逻辑</li>       
+              <li>分析</li>         
+              <li>基于事实</li>
+              <li>量化</li>  
+            </ul>
+            <ul class="factor_group group_d fragment">
+              <div class="factor_title">D右本体</div>
+              <li>全面</li>       
+              <li>本能</li>          
+              <li>整体</li>
+              <li>综合</li>  
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <div class="factor_title">B左根部</div>
+              <li>组织</li>       
+              <li>顺序</li>          
+              <li>计划</li>
+              <li>细节</li>  
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <div class="factor_title">C右根部</div>
+              <li>人际关系</li>       
+              <li>基于感觉</li>          
+              <li>肢体运动</li>
+              <li>情绪</li>  
+            </ul>        
+          </div>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          各个象限的擅长的工作
-        </h2>
-        <div class="slide center_block">
-          <ul class="factor_group group_a right_align">
-            <li>律师</li>       
-            <li>工程师</li>          
-            <li>银行家</li>
-            <li>医生</li>   
-          </ul>
-          <ul class="factor_group group_d">
-            <li>企业家</li>       
-            <li>剧作家</li>          
-            <li>艺术家</li>
-            <li>培训师</li>   
-          </ul>
-          <ul class="factor_group group_b right_align top_align">
-            <li>规划师</li>       
-            <li>官员</li>          
-            <li>管理人员</li>
-            <li>会计</li>  
-          </ul>
-          <ul class="factor_group group_c top_align">
-            <li>护士</li>       
-            <li>音乐家</li>          
-            <li>社会活动家</li>
-            <li>老师</li>   
-          </ul>        
-        </div>
+      <section>
+        <section>
+          <h2>
+            各个象限的特长
+          </h2>
+        </section>
+        <section>
+          <div class="factor_group_container lots_of_text">
+            <ul class="factor_group group_a right_align fragment">
+              <li>收集事实</li>       
+              <li>分析问题</li>          
+              <li>理性争议</li>
+              <li>形成理论</li>  
+              <li>逻辑性地解决问题</li>  
+              <li>财务分析及决策</li>  
+              <li>了解技术要素</li>  
+              <li>关键性分析</li>  
+              <li>用数字、统计、数据、精确性工作</li>  
+            </ul>
+            <ul class="factor_group group_d fragment">
+              <li>看到“重点”</li>       
+              <li>认可新可能性</li>          
+              <li>容忍歧义</li>
+              <li>继承想法和概念</li>  
+              <li>向既定方针挑战</li>  
+              <li>将不同要素综合成新的整体</li>  
+              <li>发明创新对问题的解决方法</li>  
+              <li>用直观的方式解决问题</li>  
+              <li>同时处理不同输入</li>  
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <li>发现被忽略的缺陷</li>       
+              <li>根据实际情况处理问题</li>          
+              <li>务实求是</li>
+              <li>保持一致的标准</li>  
+              <li>进行稳健的领导和督促</li>  
+              <li>阅读文档/合同中的细则</li>  
+              <li>组织和记录数据</li>  
+              <li>制定详细的计划和进程</li>  
+              <li>用井然有序的方式阐述计划</li>  
+              <li>保存原始财务记录</li>  
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <li>了解人际关系的困难</li>       
+              <li>预测他人如何感觉</li>          
+              <li>直观地理解他人如何感觉</li>
+              <li>领悟紧张的人际关系中的非语言暗示</li>  
+              <li>激发热情</li>  
+              <li>说服，调解</li>  
+              <li>共享</li>  
+              <li>理解情绪要素</li>  
+              <li>考虑价值</li>  
+            </ul>        
+          </div>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          名人们是什么象限的？  
-        </h2>
-        <div id="xiyouji" class="clickable center_block">
-          <ul class="factor_group group_a clickable">
-            <img src="resources/shashidi.jpg" alt="shashidi" />
-          </ul>
-          <ul class="factor_group group_d clickable">
-            <img src="resources/dashixiong.jpg" alt="dashixiong" />  
-          </ul>
-          <ul class="factor_group group_b clickable">
-            <img src="resources/shifu.jpg" alt="shifu" /> 
-          </ul>
-          <ul class="factor_group group_c clickable">
-            <img src="resources/ershixiong.jpg" alt="ershixiong" />   
-          </ul>        
-        </div>
-        <h3 class="slide calign">西游记-师徒四人？</h3>
+      <section>
+        <section>
+          <h2>
+            各个象限的擅长的工作
+          </h2>
+        </section>
+        <section>
+          <div class="factor_group_container">
+            <ul class="factor_group group_a right_align fragment">
+              <li>律师</li>       
+              <li>工程师</li>          
+              <li>银行家</li>
+              <li>医生</li>   
+            </ul>
+            <ul class="factor_group group_d fragment">
+              <li>企业家</li>       
+              <li>剧作家</li>          
+              <li>艺术家</li>
+              <li>培训师</li>   
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <li>规划师</li>       
+              <li>官员</li>          
+              <li>管理人员</li>
+              <li>会计</li>  
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <li>护士</li>       
+              <li>音乐家</li>          
+              <li>社会活动家</li>
+              <li>老师</li>   
+            </ul>        
+          </div>
+        </section>
       </section>
-      <section class="slide">
+      <section>
+        <section>
+          <h2>
+            名人们是什么象限的？  
+          </h2>
+        </section>
+        <section>
+          <h4 class="calign">西游记-师徒四人？</h4>
+          <div class="factor_group_container small-version">
+            <div class="factor_group group_a">
+              <img class="fragment" src="resources/shashidi.jpg" alt="shashidi" />
+            </div>
+            <div class="factor_group group_d">
+              <img class="fragment" src="resources/dashixiong.jpg" alt="dashixiong" />  
+            </div>
+            <div class="factor_group group_b">
+              <img class="fragment" src="resources/shifu.jpg" alt="shifu" /> 
+            </div>
+            <div class="factor_group group_c">
+              <img class="fragment" src="resources/ershixiong.jpg" alt="ershixiong" />   
+            </div>        
+          </div>
+        </section>
+      </section>
+      <section>
         <h2>
           认识自我
         </h2>
-        <ul>
-          <li class="slide">完整版120题，获得评测图及详细报告----$$$$$$$$$$$</li>
-          <li class="slide">
-            <iframe width="100%" height="450px" src="http://www.wyvision.com/client/HBDI2/"></iframe>
-          </li>
-        </ul>
+        <h4>完整版120题，获得评测图及详细报告----$$$$$$$$$$$</h4>
       </section>
-      <section class="slide">
-        <h2>
-          讲解HBDI评测图的用法
-        </h2>
-        <ul>
-          <li class="slide">我的评测图</li>
-          <li class="slide">实线</li>
-          <li class="slide">虚线</li>
-          <li class="slide">单象限，双象限，三象限，四象限</li>
-        </ul>
+      <section>
+        <section>
+          <h2>
+            讲解HBDI评测图的用法
+          </h2>
+          <ul>
+            <li class="fragment">我的评测图</li>
+            <li class="fragment">实线</li>
+            <li class="fragment">虚线</li>
+            <li class="fragment">单象限，双象限，三象限，四象限</li>
+          </ul>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          我认识的人可能是什么象限的？
-        </h2>
-        <div class="center_block lots_of_text">
-          <ul class="slide factor_group group_a">
-            <li>
-              环境(Environment)：<br />
-              <strong>功利主义者(utilitarian)，图表(charts)</strong>
-            </li>       
-            <li>
-              用词(Words Userd)：<br />
-              <strong>有效的(effective)，战略上(strategic)</strong>
-            </li>          
-            <li>
-              语气(Tone)：<br />
-              <strong>言简意赅(short, to the point)</strong>
-            </li>   
-          </ul>
-          <ul class="slide factor_group group_d">
-            <li>
-              环境(Environment)：<br />
-              <strong>视觉冲击(visual filing)</strong>
-            </li>       
-            <li>
-              用词(Words Userd)：<br />
-              <strong>不同的(Different)，就像...(it's like)</strong>
-            </li>          
-            <li>
-              语气(Tone)：<br />
-              <strong>愉快的(modulated)</strong>
-            </li>   
-          </ul>
-          <ul class="slide factor_group group_b">
-            <li>
-              环境(Environment)：<br />
-              <strong>整洁(neat)，有组织的(organised)</strong>
-            </li>       
-            <li>
-              用词(Words Userd)：<br />
-              <strong>处理(process)，证明(proven)</strong>
-            </li>          
-            <li>
-              语气(Tone)：<br />
-              <strong>详细的(detailed)，经过深思熟虑的(considered)</strong>
-            </li>  
-          </ul>
-          <ul class="slide factor_group group_c">
-            <li>
-              环境(Environment)：<br />
-              <strong>人的画面(pictures of people)</strong>
-            </li>       
-            <li>
-              用词(Words Userd)：<br />
-              <strong>人们(People)，爱...(love to)</strong>
-            </li>          
-            <li>
-              语气(Tone)：<br />
-              <strong>友好的(friendly)，易激动地(emotional)</strong>
-            </li>  
-          </ul>        
-        </div>
+      <section>
+        <section>
+          <h2>
+            我认识的人可能是什么象限的？
+          </h2>
+        </section>
+        <section>
+          <div class="factor_group_container lots_of_text">
+            <ul class="factor_group group_a fragment">
+              <li>
+                环境(Environment)：<br />
+                <strong>功利主义者(utilitarian)，图表(charts)</strong>
+              </li>       
+              <li>
+                用词(Words Userd)：<br />
+                <strong>有效的(effective)，战略上(strategic)</strong>
+              </li>          
+              <li>
+                语气(Tone)：<br />
+                <strong>言简意赅(short, to the point)</strong>
+              </li>   
+            </ul>
+            <ul class="factor_group group_d fragment">
+              <li>
+                环境(Environment)：<br />
+                <strong>视觉冲击(visual filing)</strong>
+              </li>       
+              <li>
+                用词(Words Userd)：<br />
+                <strong>不同的(Different)，就像...(it's like)</strong>
+              </li>          
+              <li>
+                语气(Tone)：<br />
+                <strong>愉快的(modulated)</strong>
+              </li>   
+            </ul>
+            <ul class="factor_group group_b fragment">
+              <li>
+                环境(Environment)：<br />
+                <strong>整洁(neat)，有组织的(organised)</strong>
+              </li>       
+              <li>
+                用词(Words Userd)：<br />
+                <strong>处理(process)，证明(proven)</strong>
+              </li>          
+              <li>
+                语气(Tone)：<br />
+                <strong>详细的(detailed)，经过深思熟虑的(considered)</strong>
+              </li>  
+            </ul>
+            <ul class="factor_group group_c fragment">
+              <li>
+                环境(Environment)：<br />
+                <strong>人的画面(pictures of people)</strong>
+              </li>       
+              <li>
+                用词(Words Userd)：<br />
+                <strong>人们(People)，爱...(love to)</strong>
+              </li>          
+              <li>
+                语气(Tone)：<br />
+                <strong>友好的(friendly)，易激动地(emotional)</strong>
+              </li>  
+            </ul>        
+          </div>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          沟通的挫折
-        </h2>
-        <div class="center_block lots_of_text">
-          <ul class="slide factor_group group_a right_align top_align">
-            <li>不知所云</li>       
-            <li>过于唠叨</li>          
-            <li>含糊或不明确的指示</li>
-            <li>提不合逻辑的意见</li>  
-            <li>运用时间无效率</li>  
-            <li>缺乏事实或材料</li>  
-            <li>太过随便</li>  
-            <li>过度的分享个人感受</li>  
-            <li>给人不知正确答案的印象</li>  
-            <li>恐惧或害怕被挑战/辩论</li>  
-          </ul>
-          <ul class="slide factor_group group_d top_align">
-            <li>重复</li>       
-            <li>速度太慢</li>          
-            <li>太谨慎</li>
-            <li>过于结构性或容易预测</li>  
-            <li>缺乏幽默和趣味</li>  
-            <li>缺乏灵活性或太死板</li>  
-            <li>不了解概念或隐喻/比喻</li>  
-            <li>太多细节</li>  
-            <li>太多数字</li>  
-            <li>枯燥的标题、风格</li>  
-          </ul>
-          <ul class="slide factor_group group_b right_align top_align">
-            <li>不明确的议事日程</li>       
-            <li>缺乏组织性或结构</li>          
-            <li>一直改变讨论的题目</li>
-            <li>一下子太多的点子</li>  
-            <li>难以捉摸</li>  
-            <li>速度太快</li>  
-            <li>含糊或不明确的指示/语言</li>  
-            <li>拐弯抹角</li>  
-            <li>说只说到一半</li>  
-            <li>缺乏结束</li>  
-          </ul>
-          <ul class="slide factor_group group_c top_align">
-            <li>缺乏互动</li>       
-            <li>缺乏眼神接触</li>          
-            <li>缺乏个人例子</li>
-            <li>缺乏热情或积极性的互动</li>  
-            <li>忽略个人感受的意见</li>  
-            <li>缺乏个人分享的时间</li>  
-            <li>只有事实或资料</li>  
-            <li>没有尊重个人感受</li>  
-            <li>过于直接的对话</li>  
-            <li>批评性的态度</li>  
-          </ul>        
-        </div>
+      <section>
+        <section>
+          <h2>
+            沟通的挫折
+          </h2>
+        </section>
+        <section>
+          <div class="factor_group_container lots_of_text">
+            <ul class="factor_group group_a right_align top_align fragment">
+              <li>不知所云</li>       
+              <li>过于唠叨</li>          
+              <li>含糊或不明确的指示</li>
+              <li>提不合逻辑的意见</li>  
+              <li>运用时间无效率</li>  
+              <li>缺乏事实或材料</li>  
+              <li>太过随便</li>  
+              <li>过度的分享个人感受</li>  
+              <li>给人不知正确答案的印象</li>  
+              <li>恐惧或害怕被挑战/辩论</li>  
+            </ul>
+            <ul class="factor_group group_d top_align fragment">
+              <li>重复</li>       
+              <li>速度太慢</li>          
+              <li>太谨慎</li>
+              <li>过于结构性或容易预测</li>  
+              <li>缺乏幽默和趣味</li>  
+              <li>缺乏灵活性或太死板</li>  
+              <li>不了解概念或隐喻/比喻</li>  
+              <li>太多细节</li>  
+              <li>太多数字</li>  
+              <li>枯燥的标题、风格</li>  
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <li>不明确的议事日程</li>       
+              <li>缺乏组织性或结构</li>          
+              <li>一直改变讨论的题目</li>
+              <li>一下子太多的点子</li>  
+              <li>难以捉摸</li>  
+              <li>速度太快</li>  
+              <li>含糊或不明确的指示/语言</li>  
+              <li>拐弯抹角</li>  
+              <li>说只说到一半</li>  
+              <li>缺乏结束</li>  
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <li>缺乏互动</li>       
+              <li>缺乏眼神接触</li>          
+              <li>缺乏个人例子</li>
+              <li>缺乏热情或积极性的互动</li>  
+              <li>忽略个人感受的意见</li>  
+              <li>缺乏个人分享的时间</li>  
+              <li>只有事实或资料</li>  
+              <li>没有尊重个人感受</li>  
+              <li>过于直接的对话</li>  
+              <li>批评性的态度</li>  
+            </ul>        
+          </div>
+        </section>
       </section>
-      <section class="slide">
-        <h2>
-          沟通的偏好
-        </h2>
-        <div class="slide center_block">
-          <ul class="factor_group group_a right_align">
-            <li>什么</li>       
-          </ul>
-          <ul class="factor_group group_d">
-            <li>为什么</li>         
-          </ul>
-          <ul class="factor_group group_b right_align top_align">
-            <li>怎样</li>         
-          </ul>
-          <ul class="factor_group group_c top_align">
-            <li>谁</li>         
-          </ul>        
-        </div>
-      </section>
-      <section class="slide">
-        <h2>
-          沟通的偏好
-        </h2>
-        <div class="center_block lots_of_text">
-          <ul class="slide factor_group group_a right_align top_align">
-            <li>
-              <span class="subtitle">告诉他们的信息：</span>
-              <p>你的目标，重要的事实和数据。通过演示达到什么目的。</p>
-            </li>       
-            <li>
-              <span class="subtitle">向他们展示的方法：</span>
-              <p>运行事实和数据，出示明晰的分析证据，紧扣要点，提供参考资料</p>
-            </li>            
-          </ul>
-          <ul class="slide factor_group group_d top_align">
-            <li>
-              <span class="subtitle">告诉他们的信息：</span>
-              <p>为什么你要和他们对话，为什么这事很重要，要点是什么，这事在全局中的位置</p>
-            </li>       
-            <li>
-              <span class="subtitle">向他们展示的方法：</span>
-              <p>使用色彩，使用概念化的纵观全局的图像，使用比喻，使用较快的语速和引人入胜的讲话方式</p>
-            </li>           
-          </ul>
-          <ul class="slide factor_group group_b right_align top_align">
-            <li>
-              <span class="subtitle">告诉他们的信息：</span>
-              <p>你需要多少时间，何时何地事件会发生，你需要什么资源（人员，约束），你会用什么方法（安全措施）</p>
-            </li>       
-            <li><span class="subtitle">向他们展示的方法：</span>
-              <p>提供详细的信息，使用bullet points，按部就班的演示，使用简洁，清晰和格式化的格式。</p>
-            </li>           
-          </ul>
-          <ul class="slide factor_group group_c top_align">
-            <li>
-              <span class="subtitle">告诉他们的信息：</span>
-              <p>你对他们有何了解，其他人有何反应，如何为他人带来利益，听众是谁，谁已经在使用</p>
-            </li>       
-            <li>
-              <span class="subtitle">向他们展示的方法：</span>
-              <p>介绍每一个人，讲述客户案例，表现出热情，用表情和眼神积极与听众互动，让他们感觉和经历，接受认可各种情绪</p>
-            </li>           
-          </ul>        
-        </div>
+      <section>
+        <section>
+          <h2>
+            沟通的偏好
+          </h2>
+        </section>
+        <section>
+          <div class="factor_group_container">
+            <ul class="factor_group group_a right_align fragment">
+              <li>什么</li>       
+            </ul>
+            <ul class="factor_group group_d fragment">
+              <li>为什么</li>         
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <li>怎样</li>         
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <li>谁</li>         
+            </ul>        
+          </div>
+        </section>
+        <section>
+          <div class="factor_group_container lots_of_text">
+            <ul class="factor_group group_a right_align top_align fragment">
+              <li>
+                <span class="subtitle">告诉他们的信息：</span>
+                <p>你的目标，重要的事实和数据。通过演示达到什么目的。</p>
+              </li>       
+              <li>
+                <span class="subtitle">向他们展示的方法：</span>
+                <p>运行事实和数据，出示明晰的分析证据，紧扣要点，提供参考资料</p>
+              </li>            
+            </ul>
+            <ul class="factor_group group_d top_align fragment">
+              <li>
+                <span class="subtitle">告诉他们的信息：</span>
+                <p>为什么你要和他们对话，为什么这事很重要，要点是什么，这事在全局中的位置</p>
+              </li>       
+              <li>
+                <span class="subtitle">向他们展示的方法：</span>
+                <p>使用色彩，使用概念化的纵观全局的图像，使用比喻，使用较快的语速和引人入胜的讲话方式</p>
+              </li>           
+            </ul>
+            <ul class="factor_group group_b right_align top_align fragment">
+              <li>
+                <span class="subtitle">告诉他们的信息：</span>
+                <p>你需要多少时间，何时何地事件会发生，你需要什么资源（人员，约束），你会用什么方法（安全措施）</p>
+              </li>       
+              <li><span class="subtitle">向他们展示的方法：</span>
+                <p>提供详细的信息，使用bullet points，按部就班的演示，使用简洁，清晰和格式化的格式。</p>
+              </li>           
+            </ul>
+            <ul class="factor_group group_c top_align fragment">
+              <li>
+                <span class="subtitle">告诉他们的信息：</span>
+                <p>你对他们有何了解，其他人有何反应，如何为他人带来利益，听众是谁，谁已经在使用</p>
+              </li>       
+              <li>
+                <span class="subtitle">向他们展示的方法：</span>
+                <p>介绍每一个人，讲述客户案例，表现出热情，用表情和眼神积极与听众互动，让他们感觉和经历，接受认可各种情绪</p>
+              </li>           
+            </ul>        
+          </div>
+        </section>
       </section>
       <!--QA-->
-      <section class="slide">
+      <section>
         <h1>Q&A</h1>
       </section>
-    </article>
+    </div>
   </div>
-  <footer>
-    <p>Based on <a href="http://imakewebthings.github.com/deck.js">deck.js</a></p>
-  </footer>
 
 
-  <script src="deck/jquery-1.7.min.js"></script>
-  <script src="deck/core/deck.core.js"></script>
-  <script src="deck/extensions/hash/deck.hash.js"></script>
-  <script src="deck/extensions/menu/deck.menu.js"></script>
-  <script src="deck/extensions/navigation/deck.navigation.js"></script>
-  <script src="deck/extensions/status/deck.status.js"></script>
-  <script src="index.js"></script>
-
-  <!-- Initialize the deck. You can put this in an external file if desired. -->
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
   <script>
-    $(function() {
-      $.deck('.slide');
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
     });
   </script>
   <!--Google Analytics-->
